@@ -10,7 +10,7 @@ resultado.
 
 int main(){
 
-    int valor = 97;
+    uint8_t valor = 97;
 
     if(valor & 1){
         valor |= 0xF0;
